@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    height: 600px;
+    width: 1700px;
+}
+.swiperContainer {
+    background-color: brown;
+    width: 1500px;
+    height: 232px;
+    line-height: 200px;
+    text-align: center;
+  }
+.carouselContainer{
+    position: relative;
+}
