@@ -6,7 +6,12 @@ import './App.css'
 
 const App=()=> {
   return (
-    <div>
+    <div style={{
+      display:"flex",
+      justifyContent:"center",
+      alignItems:"center",
+      flexDirection:"column"
+    }}>
       <h1>Swiper component</h1>
       <Myswiper/>
     </div>

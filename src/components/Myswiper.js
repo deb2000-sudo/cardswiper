@@ -8,12 +8,11 @@ const Myswiper = () => {
     <div className={styles.main}>
       <div className={styles.carouselContainer}>
         <swiper-container
-          className={styles.swiperContainer}
           slides-per-view="7"
           space-between="50"
           mousewheel-invert="true"
           navigation="true"
-          navigation-next-el=".custom-next-button"
+          navigation-next-el={`${styles.customNextButton}`}
           navigation-prev-el=".custom-prev-button"
         >
           <swiper-slide>Slide 1</swiper-slide>
@@ -31,7 +30,7 @@ const Myswiper = () => {
           <swiper-slide>Slide 13</swiper-slide>
           <swiper-slide>Slide 14</swiper-slide>
         </swiper-container>
-        <div className="nav-btn custom-prev-button">
+        <div className={`${styles.navBtn} ${styles.customPrevButton}`}>
           <svg
             width="50px"
             height="50px"
@@ -56,7 +55,7 @@ const Myswiper = () => {
             />
           </svg>
         </div>
-        <div className="nav-btn custom-next-button">
+        <div className={`${styles.navBtn} ${styles.customNextButton}`}>
           <svg
             width="50px"
             height="50px"
