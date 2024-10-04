@@ -1,19 +1,18 @@
 import React from 'react';
-import Myswiper from './components/Myswiper';
 import './App.css'
+import ImageCarousel from './components/ImageCarousel';
 
 
 
 const App=()=> {
   return (
     <div style={{
-      display:"flex",
-      justifyContent:"center",
-      alignItems:"center",
-      flexDirection:"column"
+      display:'flex',
+      flexDirection:'column',
+      alignItems:'center',
     }}>
-      <h1>Swiper component</h1>
-      <Myswiper/>
+      <h1>My Swiper component</h1>
+      <ImageCarousel/>
     </div>
     
   );

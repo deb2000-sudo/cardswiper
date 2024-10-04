@@ -1,0 +1,12 @@
+.cardContainer {
+    max-width: 159px;
+    max-height: 230px;
+  }
+  .cardName {
+    margin-top: 1px !important;
+    /* background-color: yellow !important;
+    border:2px solid red !important */
+    color: rgb(255, 255, 255);
+    
+  }
+  

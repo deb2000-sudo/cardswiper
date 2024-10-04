@@ -1,0 +1,17 @@
+.carouselContainer{
+    position:relative;
+    padding:20px;
+    background-color:rgba(128,128,128);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(245, 184, 184);
+    
+    width: 60vw;
+    height: 50vh;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
