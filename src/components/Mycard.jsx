@@ -2,7 +2,6 @@ import { CardActionArea, Typography } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import styles from './Mycard.module.css';
-import { CardActions } from '@mui/material';
 
 const Mycard = ({id,cImage,cAuthor}) => {
   console.log(cAuthor);

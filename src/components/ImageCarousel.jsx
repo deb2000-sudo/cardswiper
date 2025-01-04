@@ -36,9 +36,9 @@ const ImageCarousel = () => {
   return (
     <div className={styles.carouselContainer} style={{ position: 'relative', padding: '20px 0' }}>
       <Swiper
-        slidesPerView={6}
+        slidesPerView={8}
         loop={false}
-        spaceBetween={30}
+        spaceBetween={40}
         style={{ padding: '30px 50px',margin:'110px 5px' }} // Space for the custom buttons
         onSwiper={(swiper)=>(swiperRef.current=swiper)}
       >
